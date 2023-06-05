@@ -1,0 +1,38 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+}
+
+.nav {
+  max-width: 100%;
+  padding: 0;
+  background: transparent;
+}
+
+.canvas {
+  display: block;
+  position: absolute !important;
+  z-index: -1;
+  width: 50vw;
+  height: 50vh;
+}
+
+.link {
+  padding: 1rem 1.2rem;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+.info {
+  margin: 2vw;
+  font-size: 2vw;
+}
+
+.social {
+  color: rgb(251, 83, 69);
+  margin-right: 1vw;
+  margin-top: 1vw;
+}

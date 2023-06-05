@@ -1,0 +1,106 @@
+time{
+  position:relative;
+  left: 7vw;
+  font-size: 1.5vw !important;
+}
+
+a:hover, path:hover, section:hover{
+  color: rgb(92,75,236);
+}
+
+body{
+  margin: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-family: 'Roboto Mono';
+  margin: 1rem;
+  background: repeating-linear-gradient(
+    0deg,
+    rgb(191, 226, 152) 0.01vmin,
+    rgb(249, 207, 34)0.001vmin,
+    rgb(79, 210, 134) 0.1vmin,
+    rgb(50, 192, 251) 0.1vmin
+  );
+
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+section{
+  padding: 3vw;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  max-width: 50%;
+  word-wrap: break-word;
+}
+canvas {
+  z-index: -1;
+}
+
+li {
+  list-style-type: none;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 2.5vw;
+  padding: 2vw;
+  margin: 2vw;
+}
+
+h4{
+  color: black;
+  text-align: left;
+  margin-right: 10%;
+  font-size: 2.5vw;
+  padding: 20px;
+  margin: 3rem;
+}
+
+h3 {
+  color: rgb(251, 83, 69);
+  text-align: left;
+  margin-left: 10%;
+  font-size: 2.5rem;
+  padding: 20px;
+  margin: 3rem;
+  border-left: 5px solid black;
+}
+
+h2, time {
+  color: rgb(251, 83, 69);
+  font-size: 2.5vw;
+  margin: 3vw;
+  padding: 4vw;
+  text-align: center;
+}
+
+h1 {
+  font-size: 4.5vw;
+  text-align: center;
+  color: white;
+  padding: 3vw;
+}
+
+p{
+  font-size: 2vmin;
+  font-family: 'Roboto Mono';
+  margin-left: 25%;
+  padding: 0;
+  line-height: 2;
+  color: black;
+  max-width:50%;
+  word-wrap: break-word;
+}

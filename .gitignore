@@ -1,0 +1,5 @@
+node_modules
+jest.config.mjs
+__mocks__
+__tests__
+.next

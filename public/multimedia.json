@@ -1,0 +1,16 @@
+{
+  "multimediaInstallations": [
+    { "name": "Meat Suit Scrambler",
+      "details": {
+        "image": "/meat-suit-scrambler.png",
+         "description": "The song above will stream while you have the chance to use your mouse, finger, and/or trackpad or toe to manipulate the body parts of a three- dimensional flesh monster via clicking and dragging each textured body part into a configuration of your liking. Make sure the page has loaded before clicking the start button.",
+        "url": "https://quargsgreene.github.io/meat-suit-scrambler/dist/index.html"
+    }},
+    { "name": "Long Spider Leg Submersion",
+      "details": {
+        "image": "/long-spider-leg-submersion.png",
+         "description": "In this installation, one can once more guess lyrics while also having the opportunity to learn a new fact about underwear via the provied forms. Hints are available for when the user becomes stumped and a complementary microphone-influenced L-system resembling a very large shower-shriveled spider is available for viewing.",
+        "url": "https://quargsgreene.github.io/long-spider-leg-submersion/"
+    }}
+  ]
+}
