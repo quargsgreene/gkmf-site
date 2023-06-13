@@ -18,7 +18,7 @@ export default function Lineup () {
           <link rel='icon' href='/favicon.png' />
         </Head>
         <Alert severity="warning">
-          Hover over or click on text to scroll.
+          Hover over or click on text to scroll. Use your cursor and tracking device to zoom and to rotate the cubes.
         </Alert>
         <h1>Lineup</h1>
           {Object.keys(artistData['artists']).map((item:string='0', index:number) => {
@@ -29,6 +29,12 @@ export default function Lineup () {
 
             return (
             <div key={index}>
+              <h2>
+                <a href={url}>
+                  {name}
+                </a>
+              </h2>
+              <p>{description}</p>
               <Canvas aria-label={name}>
                 <OrbitControls />
                 <DynamicBox
@@ -44,12 +50,6 @@ export default function Lineup () {
                   scale={80}
                 />
               </Canvas>
-              <h2>
-                <a href={url}>
-                  {name}
-                </a>
-              </h2>
-              <p>{description}</p>
             </div>
           );
         })}

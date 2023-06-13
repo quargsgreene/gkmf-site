@@ -1,6 +1,6 @@
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   background: transparent;
@@ -10,12 +10,12 @@
   max-width: 100%;
   padding: 0;
   background: transparent;
+  display: flex;
 }
 
 .canvas {
   display: block;
   position: absolute !important;
-  z-index: -1;
   width: 50vw;
   height: 50vh;
 }

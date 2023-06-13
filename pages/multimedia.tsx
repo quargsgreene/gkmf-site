@@ -18,7 +18,7 @@ export default function MultimediaInstallations () {
         <link rel='icon' href='/favicon.png' />
       </Head>
       <Alert severity="warning">
-        Hover over or click on text to scroll.
+        Hover over or click on text to scroll. Use your cursor and tracking device to zoom and to rotate the spheres.
       </Alert>
       <h1>Multimedia</h1>
       {Object.keys(multimediaData['multimediaInstallations']).map((item:string='0', index:number) => {
@@ -29,6 +29,12 @@ export default function MultimediaInstallations () {
 
         return (
           <div key={index}>
+            <h2>
+              <a href={url}>
+                {name}
+              </a>
+            </h2>
+            <p>{description}</p>
             <Canvas aria-label={name}>
               <OrbitControls />
               <DynamicSphere
@@ -36,12 +42,6 @@ export default function MultimediaInstallations () {
                 args={[15, 64, 32]}
               />
             </Canvas>
-            <h2>
-              <a href={url}>
-                {name}
-              </a>
-            </h2>
-            <p>{description}</p>
           </div>
         );
       })}

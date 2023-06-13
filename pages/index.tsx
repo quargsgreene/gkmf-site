@@ -16,7 +16,7 @@ export default function Home() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.png' />
       </Head>
-      <main className={css.main}>
+      <div>
         <nav className={css.nav}>
           <ul>
             {pageNames.map((item:any, index:number) => {
@@ -35,7 +35,7 @@ export default function Home() {
             })}
           </ul>
         </nav>
-        <Canvas className={css.canvas} aria-label={'Good Karma Music and Arts Festival'} >
+        <Canvas aria-label={'Good Karma Music and Arts Festival'} >
           <DynamicBox images={[
             '/YIC_LOGO.png',
             '/GKMAF_BTM.jpg',
@@ -48,13 +48,9 @@ export default function Home() {
           scale={15}/>
         </Canvas >
         <time>
-          November 4th 2023
-          <span>
-            <br />
-            Santa Clarita Skatepark
-          </span>
+          November 4th 2023 • <span> Santa Clarita Skatepark </span>
         </time>
-      </main>
+      </div>
     </>
   )
 }
