@@ -24,18 +24,26 @@ export default function Contact (event: Event) {
   <h1 > Contact </h1>
   <ul>
     <li>
+    <address>
       <i>For General Information & Inquiries: </i>
+      <br />
       info@goodkarmafest.com
+    </address>
     </li>
     <li>
-      <i>For Booking & Sponsorship:</i> <br />Andy Ryan
-      <br /> aryan@yicunity.org
-      <br /> 661-607-7367
+      <address>
+        <i>For Booking & Sponsorship:</i> <br />Andy Ryan
+        <br />
+        aryan@yicunity.org
+        <br />
+        661-607-7367
+      </address>
     </li>
     <li>
+    <address>
       <i>Social Media: </i>
       <br />
-        <a href='https://www.instagram.com/goodkarmafest/'>
+      <a href='https://www.instagram.com/goodkarmafest/'>
           <FaInstagram className={css.social} />
         </a>
         <a href='https://www.facebook.com/goodkarmafest'>
@@ -44,6 +52,8 @@ export default function Contact (event: Event) {
         <a href='https://www.youtube.com/channel/UCuUn-Ww94kbU0a63BMbckCA'>
           <FaYoutube className={css.social} />
         </a>
+    </address>
+      <br />
     </li>
   </ul>
 </>

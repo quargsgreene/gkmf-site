@@ -17,9 +17,13 @@ export default function Contact (event: Event) {
   </Head>
     <div className={css.info}>
     <h1 > For Booking & Sponsorship: </h1>
+      <address className={css.sponsorship}>
         Andy Ryan
-        <br /> aryan@yicunity.org
-        <br /> 661-607-7367
+        <br />
+        aryan@yicunity.org
+        <br />
+        661-607-7367
+      </address>
     </div>
   <Canvas>
   <DynamicSphere image={'/vader.jpg'} args={[15, 64, 32]} />

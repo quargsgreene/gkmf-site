@@ -44,7 +44,7 @@ export default function Home() {
             '/GKMAF_TOP.jpg',
             '/Good Karma Logo_bluecircle.jpg'
           ]}
-          dimensions={[3, 3, 3]}
+          dimensions={[2.5, 2.5, 2.5]}
           scale={15}/>
         </Canvas >
         <time>
