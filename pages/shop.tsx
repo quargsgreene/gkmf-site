@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import css from '/styles/Home.module.css'
+import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 const DynamicCapsule = dynamic(() => import('../components/capsule'), { ssr: false })
 
@@ -20,6 +21,7 @@ export default function Shop () {
       </a>
   </div>
   <Canvas aria-label={'a person singing and playing guitar'}>
+    <OrbitControls />
     <DynamicCapsule position={[0, 0, 0]} args={[0.75, 1, 5, 32, 64]} image={'/singing.jpg'}/>
   </Canvas>
 </>

@@ -3,6 +3,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import css from '/styles/Home.module.css'
 import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
 const DynamicBox = dynamic(() => import('../components/box'), { ssr: false })
 
 export default function Home() {
@@ -36,11 +37,12 @@ export default function Home() {
           </ul>
         </nav>
         <Canvas aria-label={'Good Karma Music and Arts Festival'} >
+          <OrbitControls />
           <DynamicBox images={[
             '/YIC_LOGO.png',
             '/GKMAF_BTM.jpg',
-            '/filler.png',
-            '/filler.png',
+            '/YIC_LOGO.png',
+            '/Good Karma Logo_bluecircle.jpg',
             '/GKMAF_TOP.jpg',
             '/Good Karma Logo_bluecircle.jpg'
           ]}

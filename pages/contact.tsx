@@ -2,7 +2,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import css from '/styles/Home.module.css'
 import { Canvas } from '@react-three/fiber'
-import { TrackballControls } from '@react-three/drei'
+import { OrbitControls } from '@react-three/drei'
 import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa'
 const DynamicSphere = dynamic(() => import('../components/sphere'), { ssr: false })
 
@@ -19,7 +19,7 @@ export default function Contact (event: Event) {
   </Head>
   <Canvas aria-label={'a crowd'}>
     <DynamicSphere image={'/crowd.jpg'} args={[15, 64, 32]} />
-    <TrackballControls />
+    <OrbitControls />
   </Canvas>
   <h1 > Contact </h1>
   <ul>

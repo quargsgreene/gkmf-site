@@ -2,6 +2,7 @@ import Head from 'next/head'
 import dynamic from 'next/dynamic'
 import css from '/styles/Home.module.css'
 import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei'
 const DynamicSphere = dynamic(() => import('../components/sphere'), { ssr: false })
 
 export default function Contact (event: Event) {
@@ -26,7 +27,8 @@ export default function Contact (event: Event) {
       </address>
     </div>
   <Canvas>
-  <DynamicSphere image={'/vader.jpg'} args={[15, 64, 32]} />
+    <OrbitControls />
+    <DynamicSphere image={'/vader.jpg'} args={[15, 64, 32]} />
   </Canvas>
 </>
   )
