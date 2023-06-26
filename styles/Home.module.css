@@ -22,7 +22,6 @@
 
 .link {
   padding: 1rem 1.2rem;
-  font-family: 'Roboto Mono';
   color: white;
 }
 
@@ -31,6 +30,9 @@
   font-size: 2vw;
 }
 
+.intro{
+  text-align: center;
+}
 .sponsorship {
   font-size: 1.5vw;
 }

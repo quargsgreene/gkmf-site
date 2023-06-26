@@ -17,10 +17,6 @@ export default function Contact (event: Event) {
     <link rel='icon' href='/favicon.png' />
 
   </Head>
-  <Canvas aria-label={'a crowd'}>
-    <DynamicSphere image={'/crowd.jpg'} args={[15, 64, 32]} />
-    <OrbitControls />
-  </Canvas>
   <h1 > Contact </h1>
   <ul>
     <li>
