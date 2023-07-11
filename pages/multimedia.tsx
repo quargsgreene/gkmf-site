@@ -18,7 +18,7 @@ export default function MultimediaInstallations () {
         <link rel='icon' href='/favicon.png' />
       </Head>
       <Alert severity="warning">
-        Hover over or click on text to scroll. Use your cursor and tracking device to zoom and to rotate the spheres.
+        Hover over or click on text to scroll past spheres. Use your cursor and tracking device to zoom and to rotate the spheres.
       </Alert>
       <h1>Multimedia</h1>
       <iframe src='https://www.juicer.io/api/feeds/goodkarmafest/iframe'></iframe>
