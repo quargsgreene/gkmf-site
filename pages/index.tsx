@@ -40,7 +40,11 @@ export default function Home() {
           </ul>
         </nav>
         <time>
-          November 4, 2023 • <span> Santa Clarita Skatepark & Field </span>
+          November 4, 2023
+          <br />
+          <span>
+            Santa Clarita Skatepark & Field
+          </span>
         </time>
         <p className={css.intro}>
          Produced by Yes I Can, The Good Karma Music & Arts Festival empowers people with disabilities who want to work in the entertainment industry. Join us this November with a top-tier entertainment lineup, fantastic venue, and a one-of-a-kind cause!

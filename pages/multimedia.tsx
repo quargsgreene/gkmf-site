@@ -21,6 +21,7 @@ export default function MultimediaInstallations () {
         Hover over or click on text to scroll. Use your cursor and tracking device to zoom and to rotate the spheres.
       </Alert>
       <h1>Multimedia</h1>
+      <iframe src='https://www.juicer.io/api/feeds/goodkarmafest/iframe'></iframe>
       {Object.keys(multimediaData['multimediaInstallations']).map((item:string='0', index:number) => {
         let image = multimediaData['multimediaInstallations'][index]['details']['image'];
         let name = multimediaData['multimediaInstallations'][index]['name'];
@@ -45,7 +46,7 @@ export default function MultimediaInstallations () {
           </div>
         );
       })}
-        <h4>More is coming soon!</h4>
+      <h4>More is coming soon!</h4>
 </>
   )
 }
