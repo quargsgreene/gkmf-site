@@ -122,8 +122,8 @@ p{
 }
 
 iframe{
-  width: 1000px;
-  height: 1000px;
+  width: 80vw;
+  height: 80vh;
   display:block;
   margin:0 auto;
 }
